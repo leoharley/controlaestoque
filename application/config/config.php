@@ -9,12 +9,12 @@ $config['app_version'] = '4.39.0';
 /**
  * Nome do sistema
  */
-$config['app_name'] = 'Map-OS';
+$config['app_name'] = 'Controla Estoque';
 
 /**
  * Descrição do sistema
  */
-$config['app_subname'] = 'Sistema de Controle de Ordens de Serviço';
+$config['app_subname'] = 'Sistema de Controle de Estoque';
 
 
 /*
