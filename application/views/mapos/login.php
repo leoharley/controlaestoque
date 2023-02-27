@@ -74,11 +74,9 @@ echo saudacao($login);
                 <input name="senha" type="password" placeholder="Senha">
               </div>
               <div class="center"><button id="btn-acessar">Acessar</button>
-              </div>
               <br/>
-              <div class="center" style="position: absolute;">
-                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="width:50%">
-              </div>
+              <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="position:absolute;width:50%">
+              </div>              
              <!-- <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
               </div>-->
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
