@@ -75,7 +75,10 @@ echo saudacao($login);
               </div>
               <div class="center"><button id="btn-acessar">Acessar</button>
               </div>
-              <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" class="left-login-image" alt="Map-OS - Versão: <?= $this->config->item('app_version'); ?>">
+              <br/>
+              <div class="center" style="width:50%">
+                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" class="left-login-image" alt="Map-OS - Versão: <?= $this->config->item('app_version'); ?>">
+              </div>
              <!-- <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
               </div>-->
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
