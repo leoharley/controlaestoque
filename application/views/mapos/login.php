@@ -76,8 +76,8 @@ echo saudacao($login);
               <div class="center"><button id="btn-acessar">Acessar</button>
               </div>
               <br/>
-              <div class="center" style="width:50%">
-                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" class="left-login-image" alt="Map-OS - Versão: <?= $this->config->item('app_version'); ?>">
+              <div class="center">
+                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="width:50%">
               </div>
              <!-- <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
               </div>-->
