@@ -76,7 +76,9 @@ echo saudacao($login);
               <div class="center">
                 <button id="btn-acessar">Acessar</button>
               </div>
-              
+              <div class="center">
+                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="width:140px">
+              </div>
              <!-- <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
               </div>-->
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
@@ -108,7 +110,7 @@ echo saudacao($login);
         <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Fechar</button>
       </div>
     </div>
-
+</div>
 <script src="<?= base_url() ?>assets/js/bootstrap.min.js"></script>
 <script src="<?= base_url() ?>assets/js/validate.js"></script>
 <script type="text/javascript">
