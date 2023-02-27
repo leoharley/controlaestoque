@@ -38,7 +38,7 @@ echo saudacao($login);
 
 <h2 class="h-two"> Ao Sistema de Controle de Estoque</h2>
   <!--  <img src="<?php //echo base_url() ?>assets/img/dashboard-animate.svg" class="left-login-image" alt="Map-OS - Versão: <?php //echo $this->config->item('app_version'); ?>"> -->
-  <img src="<?php //echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" class="left-login-image" alt="Map-OS - Versão: <?= $this->config->item('app_version'); ?>">
+  <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" class="left-login-image" alt="Map-OS - Versão: <?= $this->config->item('app_version'); ?>">
 </div>
 <div id="loginbox">
     <form class="form-vertical" id="formLogin" method="post" action="<?= site_url('login/verificarLogin') ?>">
