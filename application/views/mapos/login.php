@@ -77,7 +77,7 @@ echo saudacao($login);
                 <button id="btn-acessar">Acessar</button>
               </div>
               <div class="center">
-                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="width:100px">
+                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="width:140px">
               </div>              
              <!-- <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
               </div>-->
