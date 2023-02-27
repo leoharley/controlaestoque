@@ -36,7 +36,8 @@ echo saudacao($login);
 // Irá retornar conforme o horário:
 ?></h1>
 
-<h2 class="h-two"> Ao Sistema de Controle de Estoque</h2>
+<h2 class="h-two"> Ao Sistema de Controle de Estoque da</h2>
+  <br/>
   <!--  <img src="<?php //echo base_url() ?>assets/img/dashboard-animate.svg" class="left-login-image" alt="Map-OS - Versão: <?php //echo $this->config->item('app_version'); ?>"> -->
   <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" class="left-login-image" alt="Map-OS - Versão: <?= $this->config->item('app_version'); ?>">
 </div>
