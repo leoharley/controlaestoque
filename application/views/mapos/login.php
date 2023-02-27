@@ -73,18 +73,14 @@ echo saudacao($login);
                   <label class="fas fa-lock" for="senha"></label>
                 <input name="senha" type="password" placeholder="Senha">
               </div>
-              <div class="center">
-                <button id="btn-acessar">Acessar</button>
-              </div>
-              <div class="center">
-                <img src="<?php echo base_url() ?>assets/img/parauapebas/marca_prefeitura_semas.png" style="width:140px">
+              <div class="center"><button id="btn-acessar">Acessar</button>
               </div>
              <!-- <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
               </div>-->
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
               <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-header">
-                  <h4 id="myModalLabel">Controla Estoque</h4>
+                  <h4 id="myModalLabel">Map-OS</h4>
                 </div>
                 <div class="modal-body">
                   <h5 style="text-align: center" id="message">Os dados de acesso estão incorretos, por favor tente novamente!</h5>
@@ -101,7 +97,7 @@ echo saudacao($login);
     <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
     <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-header">
-        <h4 id="myModalLabel">Controla Estoque</h4>
+        <h4 id="myModalLabel">Map-OS</h4>
       </div>
       <div class="modal-body">
         <h5 style="text-align: center" id="message">Os dados de acesso estão incorretos, por favor tente novamente!</h5>
@@ -110,7 +106,7 @@ echo saudacao($login);
         <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Fechar</button>
       </div>
     </div>
-</div>
+
 <script src="<?= base_url() ?>assets/js/bootstrap.min.js"></script>
 <script src="<?= base_url() ?>assets/js/validate.js"></script>
 <script type="text/javascript">
