@@ -63,7 +63,7 @@ echo saudacao($login);
                   <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logo-mapos.png">' : '<img src="'. base_url() .'assets/img/logo-controlaestoque.png" style="max-width: 110%;margin-left:-10px">'; ?>
                 </div>
               </div>
-              <div id="mcell">Versão: <?= $this->config->item('app_version'); ?></div>
+              <div id="mcell">Versão: 1.0.1<?php //echo $this->config->item('app_version'); ?></div>
               <form action="index.html" method="post">
                 <div class="input-field">
                   <label class="fas fa-user" for="nome"></label>
