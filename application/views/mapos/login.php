@@ -60,7 +60,7 @@ echo saudacao($login);
                   <img src="<?php echo base_url() ?>assets/img/logo-two.png">
                 </div> -->
                 <div class="title01">
-                  <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logo-mapos.png">' : '<img src="'. base_url() .'assets/img/logo-controlaestoque.png">'; ?>
+                  <?= $configuration['app_theme'] == 'white' ? '<img src="'. base_url() .'assets/img/logo-mapos.png">' : '<img src="'. base_url() .'assets/img/logo-controlaestoque.png" style="max-width: 110%;margin-left:-10px">'; ?>
                 </div>
               </div>
               <div id="mcell">Versão: <?= $this->config->item('app_version'); ?></div>
