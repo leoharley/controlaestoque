@@ -163,7 +163,7 @@
                         <div><i class='bx bxs-group iconBx'></i></div>
                         <div>
                             <div class="cardName2"><?= $this->db->count_all('clientes'); ?></div>
-                            <div class="cardName">Clientes</div>
+                            <div class="cardName">Fornecedores</div>
                         </div>
                     </a>
 
@@ -175,29 +175,29 @@
                         </div>
                     </a>
 
-                    <a href="<?php echo base_url() ?>index.php/servicos/adicionar" class="card tip-top" title="Adicionar serviços">
+                  <!--  <a href="<?php //echo base_url() ?>index.php/servicos/adicionar" class="card tip-top" title="Adicionar serviços">
                         <div><i class='bx bxs-stopwatch iconBx3'></i></div>
                         <div>
-                            <div class="cardName2"><?= $this->db->count_all('servicos'); ?></div>
+                            <div class="cardName2"><?php //echo $this->db->count_all('servicos'); ?></div>
                             <div class="cardName">Serviços</div>
                         </div>
-                    </a>
+                    </a> -->
 
-                    <a href="<?php echo base_url(); ?>index.php/os/adicionar" class="card tip-top" title="Adicionar OS">
+                  <!--  <a href="<?php //echo base_url(); ?>index.php/os/adicionar" class="card tip-top" title="Adicionar OS">
                         <div><i class='bx bxs-spreadsheet iconBx4'></i></div>
                         <div>
-                            <div class="cardName2"><?= $this->db->count_all('os'); ?></div>
+                            <div class="cardName2"><?php //echo $this->db->count_all('os'); ?></div>
                             <div class="cardName">Ordens</div>
                         </div>
                     </a>
 
-                    <a href="<?php echo base_url(); ?>index.php/garantias" class="card tip-top" title="Adicionar garantia">
+                    <a href="<?php //echo base_url(); ?>index.php/garantias" class="card tip-top" title="Adicionar garantia">
                         <div><i class='bx bxs-receipt iconBx6'></i></div>
                         <div>
-                            <div class="cardName2"><?= $this->db->count_all('garantias'); ?></div>
+                            <div class="cardName2"><?php //echo $this->db->count_all('garantias'); ?></div>
                             <div class="cardName">Garantias</div>
                         </div>
-                    </a>
+                    </a> -->
 
                     <a href="<?php echo base_url() ?>index.php/vendas/adicionar" class="card tip-top" title="Adicionar Vendas">
                         <div><i class='bx bxs-cart-alt iconBx5'></i></div>
