@@ -87,10 +87,8 @@
       <li class="dropdown">
         <a href="#" class="tip-right dropdown-toggle" data-toggle="dropdown" title="Relatórios"><i class='bx bx-pie-chart-alt-2 iconN'></i><span class="text"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="<?= site_url('relatorios/clientes') ?>">Clientes</a></li>
+          <li><a href="<?= site_url('relatorios/clientes') ?>">Fornecedores</a></li>
           <li><a href="<?= site_url('relatorios/produtos') ?>">Produtos</a></li>
-          <li><a href="<?= site_url('relatorios/servicos') ?>">Serviços</a></li>
-          <li><a href="<?= site_url('relatorios/os') ?>">Ordens de Serviço</a></li>
           <li><a href="<?= site_url('relatorios/vendas') ?>">Vendas</a></li>
           <li><a href="<?= site_url('relatorios/financeiro') ?>">Financeiro</a></li>
           <li><a href="<?= site_url('relatorios/sku') ?>">SKU</a></li>
