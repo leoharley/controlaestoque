@@ -45,8 +45,8 @@
                         echo 'active';
                     }; ?>">
                         <a class="tip-bottom" title="" href="<?= site_url('clientes') ?>"><i class='bx bx-user iconX'></i>
-                            <span class="title">Cliente / Fornecedor</span>
-                            <span class="title-tooltip">Clientes</span>
+                            <span class="title">Fornecedor</span>
+                            <span class="title-tooltip">Fornecedores</span>
                         </a>
                     </li>
                 <?php } ?>
