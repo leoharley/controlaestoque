@@ -1,7 +1,6 @@
 <div class="row-fluid">
     <div id="footer" class="span12"> <a class="pecolor" href="https://github.com/RamonSilva20/mapos" target="_blank">
-            <?= date('Y'); ?> &copy; Ramon Silva - Map-OS - Versão:
-      <?= $this->config->item('app_version'); ?></a></div>
+            Controla Estoque - Versão: 1.0.1</a></div>
 </div>
 <!--end-Footer-part-->
 <script src="<?= base_url(); ?>assets/js/bootstrap.min.js"></script>
