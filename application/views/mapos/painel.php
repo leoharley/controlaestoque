@@ -28,7 +28,7 @@
         <li class="card">
             <div class="grid-blak">
                 <a href="<?= site_url('clientes') ?>">
-                    <div class="numbers">Clientes</div>
+                    <div class="numbers">Fornecedores</div>
                     <div class="cardName">F1</div>
                 </a>
             </div>
