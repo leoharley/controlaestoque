@@ -10,9 +10,9 @@
             <div class="widget-content">
                 <ul style="flex-direction: row;" class="site-stats">
                     <li><a href="<?php echo base_url() ?>index.php/relatorios/clientesRapid" target="_blank"><i
-                                    class="fas fa-users"></i> <small>Todos os Clientes - pdf</small></a></li>
+                                    class="fas fa-users"></i> <small>Todos os Fornecedores - pdf</small></a></li>
                     <li><a href="<?php echo base_url() ?>index.php/relatorios/clientesRapid?format=xls" target="_blank"><i
-                                    class="fas fa-users"></i> <small>Todos os Clientes - xls</small></a></li>
+                                    class="fas fa-users"></i> <small>Todos os Fornecedores - xls</small></a></li>
                 </ul>
             </div>
         </div>
