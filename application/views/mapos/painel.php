@@ -688,7 +688,7 @@
                     };
                 },
                 failure: function() {
-                    alert('Falha ao buscar OS de calendário!');
+                    //alert('Falha ao buscar OS de calendário!');
                 },
             },
             eventClick: function(info) {
