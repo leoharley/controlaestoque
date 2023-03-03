@@ -44,7 +44,7 @@
                         </div>
                         <div class="span12 well" style="margin-left: 0">
                         <div class="span12">
-                            <label for="">Tipo de cliente:</label>
+                            <label for="">Tipo de fornecedor:</label>
                             <select name="tipocliente" class="span12">
                                 <option value="0">Cliente</option>
                                 <option value="1">Fornecedor</option>
