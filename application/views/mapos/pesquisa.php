@@ -66,7 +66,7 @@
                     <span class="icon">
                         <i class="fas fa-user"></i>
                     </span>
-                    <h5>Clientes</h5>
+                    <h5>Fornecedores</h5>
                 </div>
                 <div class="widget-content nopadding tab-content">
                     <table class="table table-bordered ">
@@ -75,7 +75,7 @@
                             <th>#</th>
                             <th>Nome</th>
                             <th>CPF/CNPJ</th>
-                            <th>Cliente / Fornecedor</th>
+                            <th>Fornecedor</th>
                             <th></th>
                         </tr>
                         </thead>
