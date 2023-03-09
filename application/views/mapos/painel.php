@@ -135,7 +135,7 @@
                         <tr>
                             <th>Cod.</th>
                             <th>Produto</th>
-                            <th>Preço de Venda</th>
+                            <!--<th>Preço de Venda</th>-->
                             <th>Estoque</th>
                             <th class="ph3">Estoque Mínimo</th>
                             <th>Ações</th>
@@ -151,9 +151,9 @@
                                     <td class="cli1">
                                         <?= $p->descricao ?>
                                     </td>
-                                    <td>R$
-                                        <?= $p->precoVenda ?>
-                                    </td>
+                                   <!-- <td>R$
+                                        <?php //echo $p->precoVenda ?>
+                                    </td>-->
                                     <td>
                                         <?= $p->estoque ?>
                                     </td>
