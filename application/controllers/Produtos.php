@@ -87,7 +87,7 @@ class Produtos extends MY_Controller
 
     public function editar()
     {
-        if (!$this->uri->segment(3) || !is_numeric($this->uri->segment(3))) {
+        if (!$this->uri->segment(3)) {
             $this->session->set_flashdata('error', 'Ite não pode ser encontrado, parâmetro não foi passado corretamente.');
             redirect('mapos');
         }
