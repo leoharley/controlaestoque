@@ -124,7 +124,8 @@
 
 <div class="row-fluid" style="margin-top: 0; display: flex">
     <div class="Sspan12">
-        <div class="widget-box2">
+        
+    <!--    <div class="widget-box2">
             <div>
                 <h5 class="cardHeader">Agenda</h5>
             </div>
@@ -149,7 +150,7 @@
                     </div>
                 </table>
             </div>
-        </div>
+        </div>  -->
 
         <!-- New widget right -->
         <div class="new-statisc">
