@@ -111,6 +111,7 @@
         </div>
     </div>
     <!--Serviços-->
+    <!--
     <div class="span6" style="margin-left: 0">
         <div class="widget-box" style="min-height: 200px">
             <div class="widget-title" style="margin: -20px 0 0">
@@ -131,7 +132,7 @@
                     </thead>
                     <tbody>
                     <?php
-                    if ($servicos == null) {
+                    /*if ($servicos == null) {
                         echo '<tr><td colspan="4">Nenhum serviço foi encontrado.</td></tr>';
                     }
                     foreach ($servicos as $r) {
@@ -145,7 +146,7 @@
                         }
                         echo '</td>';
                         echo '</tr>';
-                    }
+                    }*/
         ?>
                     <tr>
                     </tr>
@@ -153,8 +154,9 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div>-->
     <!--Ordens de Serviço-->
+    <!--
     <div class="span6">
         <div class="widget-box" style="min-height: 200px">
             <div class="widget-title" style="margin: -20px 0 0">
@@ -176,7 +178,7 @@
                     </thead>
                     <tbody>
                     <?php
-        if ($os == null) {
+        /*if ($os == null) {
             echo '<tr><td colspan="4">Nenhuma os foi encontrado.</td></tr>';
         }
         foreach ($os as $r) {
@@ -196,7 +198,7 @@
             }
             echo '</td>';
             echo '</tr>';
-        }
+        }*/
         ?>
                     <tr>
                     </tr>
@@ -204,5 +206,5 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div>-->
 </div>
