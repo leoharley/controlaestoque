@@ -257,13 +257,13 @@
                         </div>
                     </a> -->
 
-                    <a href="<?php echo base_url() ?>index.php/vendas/adicionar" class="card tip-top" title="Adicionar Vendas">
+                   <!--<a href="<?php //echo base_url() ?>index.php/vendas/adicionar" class="card tip-top" title="Adicionar Vendas">
                         <div><i class='bx bxs-cart-alt iconBx5'></i></div>
                         <div>
-                            <div class="cardName2"><?= $this->db->count_all('vendas'); ?></div>
+                            <div class="cardName2"><?php //echo $this->db->count_all('vendas'); ?></div>
                             <div class="cardName">Vendas</div>
                         </div>
-                    </a>
+                    </a>-->
 
                     <!-- responsavel por fazer complementar a variavel "$financeiro_mes_dia->" de receita e despesa -->
                     <?php if ($estatisticas_financeiro != null) {
