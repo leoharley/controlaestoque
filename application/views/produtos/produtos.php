@@ -28,10 +28,10 @@
             <thead>
             <tr>
                 <th>Cod.</th>
-                <th>Cod. Barra</th>
+                <!--<th>Cod. Barra</th>-->
                 <th>Nome</th>
                 <th>Estoque</th>
-                <th>Preço</th>
+                <!--<th>Preço</th>-->
                 <th>Ações</th>
             </tr>
             </thead>
@@ -46,10 +46,10 @@
             foreach ($results as $r) {
                 echo '<tr>';
                 echo '<td>' . $r->idProdutos . '</td>';
-                echo '<td>' . $r->codDeBarra . '</td>';
+                //echo '<td>' . $r->codDeBarra . '</td>';
                 echo '<td>' . $r->descricao . '</td>';
                 echo '<td>' . $r->estoque . '</td>';
-                echo '<td>' . number_format($r->precoVenda, 2, ',', '.') . '</td>';
+                //echo '<td>' . number_format($r->precoVenda, 2, ',', '.') . '</td>';
                 echo '<td>';
                 if ($this->permission->checkPermission($this->session->userdata('permissao'), 'vProduto')) {
                     echo '<a style="margin-right: 1%" href="' . base_url() . 'index.php/produtos/visualizar/' . $r->idProdutos . '" class="btn-nwe" title="Visualizar Produto"><i class="bx bx-show bx-xs"></i></a>  ';
