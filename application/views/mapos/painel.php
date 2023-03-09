@@ -236,9 +236,8 @@
                     <?php  }
                     } ?>
                 </div>
-            </div>
 
-            <div class="widget-box0 widbox-blak">
+                <div class="widget-box0 widbox-blak">
             <div>
                 <h5 class="cardHeader">Produtos Com Estoque Mínimo</h5>
             </div>
@@ -295,6 +294,7 @@
         </div>
 
         
+            </div>
         </div>
     </div>
 </div>
