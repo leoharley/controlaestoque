@@ -73,7 +73,7 @@
                             <strong><span style="color: red" id="errorAlert"></span><strong>
                         </div>
                     </div>
-                    <div class="control-group">
+                    <div class="control-group" style="display:none">
                         <label for="precoVenda" class="control-label">Preço de Venda<span class="required">*</span></label>
                         <div class="controls">
                             <input id="precoVenda" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoVenda" value="<?php echo '0'//set_value('precoVenda'); ?>" />
