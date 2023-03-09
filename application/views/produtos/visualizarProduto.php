@@ -30,18 +30,18 @@
                                 <?php echo $result->unidade ?>
                             </td>
                         </tr>
-                        <tr>
+                       <!-- <tr>
                             <td style="text-align: right"><strong>Preço de Compra</strong></td>
                             <td>R$
-                                <?php echo $result->precoCompra; ?>
+                                <?php //echo $result->precoCompra; ?>
                             </td>
                         </tr>
                         <tr>
                             <td style="text-align: right"><strong>Preço de Venda</strong></td>
                             <td>R$
-                                <?php echo $result->precoVenda; ?>
+                                <?php //echo $result->precoVenda; ?>
                             </td>
-                        </tr>
+                        </tr> -->
                         <tr>
                             <td style="text-align: right"><strong>Estoque</strong></td>
                             <td>
