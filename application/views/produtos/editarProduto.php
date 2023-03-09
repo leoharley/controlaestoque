@@ -38,13 +38,13 @@
                 <?php echo $custom_error; ?>
                 <form action="<?php echo current_url(); ?>" id="formProduto" method="post" class="form-horizontal">
                     
-                    <!--<div class="control-group">
-                        <?php //echo form_hidden('idProdutos', $result->idProdutos) ?>
+                    <div class="control-group">
+                        <?php echo form_hidden('idProdutos', $result->idProdutos) ?>
                         <label for="codDeBarra" class="control-label">Código de Barra<span class=""></span></label>
                         <div class="controls">
                             <input id="codDeBarra" type="text" name="codDeBarra" value="<?php echo $result->codDeBarra; ?>" />
                         </div>
-                    </div>-->
+                    </div>
 
                     <div class="control-group">
                         <label for="descricao" class="control-label">Descrição<span class="required">*</span></label>
