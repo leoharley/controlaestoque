@@ -173,10 +173,10 @@
                     required: true
                 },
                 precoCompra: {
-                    required: true
+                    required: false
                 },
                 precoVenda: {
-                    required: true
+                    required: false
                 },
                 estoque: {
                     required: true
