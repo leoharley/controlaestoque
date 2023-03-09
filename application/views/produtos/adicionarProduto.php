@@ -65,10 +65,10 @@
                         </div>
                     </div>
                     
-                    <!--<div class="control-group">
+                    <div class="control-group" style="display:none">
                         <label for="precoCompra" class="control-label">Preço de Compra<span class="required">*</span></label>
                         <div class="controls">
-                            <input style="width: 9em;" id="precoCompra" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoCompra" value="<?php echo set_value('precoCompra'); ?>" />
+                            <input style="width: 9em;" id="precoCompra" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoCompra" value="<?php echo '0';//set_value('precoCompra'); ?>" />
                             Margem <input style="width: 3em;" id="margemLucro" name="margemLucro" type="text" placeholder="%" maxlength="3" size="2" />
                             <strong><span style="color: red" id="errorAlert"></span><strong>
                         </div>
@@ -76,9 +76,9 @@
                     <div class="control-group">
                         <label for="precoVenda" class="control-label">Preço de Venda<span class="required">*</span></label>
                         <div class="controls">
-                            <input id="precoVenda" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoVenda" value="<?php echo set_value('precoVenda'); ?>" />
+                            <input id="precoVenda" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoVenda" value="<?php echo '0'//set_value('precoVenda'); ?>" />
                         </div>
-                    </div>-->
+                    </div>
 
                     <div class="control-group">
                         <label for="unidade" class="control-label">Unidade<span class="required">*</span></label>
@@ -172,12 +172,12 @@
                 unidade: {
                     required: true
                 },
-                /*precoCompra: {
+                /precoCompra: {
                     required: false
                 },
                 precoVenda: {
                     required: false
-                },*/
+                },
                 estoque: {
                     required: true
                 }
@@ -189,12 +189,12 @@
                 unidade: {
                     required: 'Campo Requerido.'
                 },
-                /*precoCompra: {
+                precoCompra: {
                     required: 'Campo Requerido.'
                 },
                 precoVenda: {
                     required: 'Campo Requerido.'
-                },*/
+                },
                 estoque: {
                     required: 'Campo Requerido.'
                 }
