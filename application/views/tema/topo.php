@@ -89,10 +89,12 @@
         <ul class="dropdown-menu">
           <li><a href="<?= site_url('relatorios/clientes') ?>">Fornecedores</a></li>
           <li><a href="<?= site_url('relatorios/produtos') ?>">Produtos</a></li>
-          <li><a href="<?= site_url('relatorios/vendas') ?>">Vendas</a></li>
-          <li><a href="<?= site_url('relatorios/financeiro') ?>">Financeiro</a></li>
-          <li><a href="<?= site_url('relatorios/sku') ?>">SKU</a></li>
-          <li><a href="<?= site_url('relatorios/receitasBrutasMei') ?>">Receitas Brutas - MEI</a></li>
+          
+          <!--<li><a href="<?php //echo site_url('relatorios/vendas'); ?>">Vendas</a></li>
+          <li><a href="<?php //echo site_url('relatorios/financeiro'); ?>">Financeiro</a></li>
+          <li><a href="<?php //echo site_url('relatorios/sku'); ?>">SKU</a></li>
+          <li><a href="<?php //echo site_url('relatorios/receitasBrutasMei'); ?>">Receitas Brutas - MEI</a></li>-->
+
         </ul>
       </li>
       <li class="dropdown">
