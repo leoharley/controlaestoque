@@ -123,7 +123,7 @@
 <!--End-Action boxes-->
 
 <div class="row-fluid" style="margin-top: 0; display: flex">
-    <div class="Sspan12">
+    <div class="Sspan12" style="grid-template-columns: 1fr 1fr!important;">
 
     <div class="widget-box2 widbox-blak">
             <div>
