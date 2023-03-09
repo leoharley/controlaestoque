@@ -124,6 +124,63 @@
 
 <div class="row-fluid" style="margin-top: 0; display: flex">
     <div class="Sspan12">
+
+    <div class="widget-box2 widbox-blak">
+            <div>
+                <h5 class="cardHeader">Produtos Com Estoque Mínimo</h5>
+            </div>
+            <div class="widget-content">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Cod.</th>
+                            <th>Produto</th>
+                            <th>Preço de Venda</th>
+                            <th>Estoque</th>
+                            <th class="ph3">Estoque Mínimo</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php if ($produtos != null) : ?>
+                            <?php foreach ($produtos as $p) : ?>
+                                <tr>
+                                    <td>
+                                        <?= $p->idProdutos ?>
+                                    </td>
+                                    <td class="cli1">
+                                        <?= $p->descricao ?>
+                                    </td>
+                                    <td>R$
+                                        <?= $p->precoVenda ?>
+                                    </td>
+                                    <td>
+                                        <?= $p->estoque ?>
+                                    </td>
+                                    <td class="ph3">
+                                        <?= $p->estoqueMinimo ?>
+                                    </td>
+                                    <td>
+                                        <?php if ($this->permission->checkPermission($this->session->userdata('permissao'), 'eProduto')) : ?>
+                                            <a href="<?= base_url() ?>index.php/produtos/editar/<?= $p->idProdutos ?>" class="btn-nwe3 tip-top" title="Editar">
+                                                <i class="bx bx-edit"></i>
+                                            </a>
+                                            <a href="#atualizar-estoque" role="button" data-toggle="modal" produto="<?= $p->idProdutos ?>" estoque="<?= $p->estoque ?>" class="btn-nwe5 tip-top" title="Atualizar Estoque">
+                                                <i class="bx bx-plus-circle"></i></a>
+                                        <?php endif; ?>
+                                    </td>
+                                </tr>
+                            <?php endforeach ?>
+                        <?php else : ?>
+                            <tr>
+                                <td colspan="6">Nenhum produto com estoque baixo.</td>
+                            </tr>
+                        <?php endif ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
         
     <!--    <div class="widget-box2">
             <div>
@@ -236,64 +293,6 @@
                     <?php  }
                     } ?>
                 </div>
-
-                <div class="widget-box0 widbox-blak">
-            <div>
-                <h5 class="cardHeader">Produtos Com Estoque Mínimo</h5>
-            </div>
-            <div class="widget-content">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Cod.</th>
-                            <th>Produto</th>
-                            <th>Preço de Venda</th>
-                            <th>Estoque</th>
-                            <th class="ph3">Estoque Mínimo</th>
-                            <th>Ações</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php if ($produtos != null) : ?>
-                            <?php foreach ($produtos as $p) : ?>
-                                <tr>
-                                    <td>
-                                        <?= $p->idProdutos ?>
-                                    </td>
-                                    <td class="cli1">
-                                        <?= $p->descricao ?>
-                                    </td>
-                                    <td>R$
-                                        <?= $p->precoVenda ?>
-                                    </td>
-                                    <td>
-                                        <?= $p->estoque ?>
-                                    </td>
-                                    <td class="ph3">
-                                        <?= $p->estoqueMinimo ?>
-                                    </td>
-                                    <td>
-                                        <?php if ($this->permission->checkPermission($this->session->userdata('permissao'), 'eProduto')) : ?>
-                                            <a href="<?= base_url() ?>index.php/produtos/editar/<?= $p->idProdutos ?>" class="btn-nwe3 tip-top" title="Editar">
-                                                <i class="bx bx-edit"></i>
-                                            </a>
-                                            <a href="#atualizar-estoque" role="button" data-toggle="modal" produto="<?= $p->idProdutos ?>" estoque="<?= $p->estoque ?>" class="btn-nwe5 tip-top" title="Atualizar Estoque">
-                                                <i class="bx bx-plus-circle"></i></a>
-                                        <?php endif; ?>
-                                    </td>
-                                </tr>
-                            <?php endforeach ?>
-                        <?php else : ?>
-                            <tr>
-                                <td colspan="6">Nenhum produto com estoque baixo.</td>
-                            </tr>
-                        <?php endif ?>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        
             </div>
         </div>
     </div>
