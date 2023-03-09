@@ -10,7 +10,7 @@
             </a>
           <?php if ($this->uri->segment(2) != null) { ?>
             <a href="<?= base_url() . 'index.php/' . $this->uri->segment(1) . '/' . $this->uri->segment(2) . '/' . $this->uri->segment(3) ?>" class="current tip-bottom" title="<?= ucfirst($this->uri->segment(2))=='Mapos'?'Sistema':ucfirst($this->uri->segment(2)); ?>">
-              <?= ucfirst($this->uri->segment(2))=='Mapos'?'Sistema':ucfirst($this->uri->segment(2));
+              <?= ucfirst($this->uri->segment(2))==" Mapos "?" Sistema ":ucfirst($this->uri->segment(2));
           } ?>
             </a>
           <?php } ?>
