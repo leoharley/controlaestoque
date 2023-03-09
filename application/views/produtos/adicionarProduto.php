@@ -37,12 +37,14 @@
             <div class="widget-content nopadding tab-content">
                 <?php echo $custom_error; ?>
                 <form action="<?php echo current_url(); ?>" id="formProduto" method="post" class="form-horizontal">
-                    <div class="control-group">
+                   
+                    <!--<div class="control-group">
                         <label for="codDeBarra" class="control-label">Código de Barra<span class=""></span></label>
                         <div class="controls">
                             <input id="codDeBarra" type="text" name="codDeBarra" value="<?php echo set_value('codDeBarra'); ?>" />
                         </div>
-                    </div>
+                    </div>-->
+
                     <div class="control-group">
                         <label for="descricao" class="control-label">Descrição<span class="required">*</span></label>
                         <div class="controls">
@@ -62,7 +64,8 @@
                             </label>
                         </div>
                     </div>
-                    <div class="control-group">
+                    
+                    <!--<div class="control-group">
                         <label for="precoCompra" class="control-label">Preço de Compra<span class="required">*</span></label>
                         <div class="controls">
                             <input style="width: 9em;" id="precoCompra" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoCompra" value="<?php echo set_value('precoCompra'); ?>" />
@@ -75,7 +78,8 @@
                         <div class="controls">
                             <input id="precoVenda" class="money" data-affixes-stay="true" data-thousands="" data-decimal="." type="text" name="precoVenda" value="<?php echo set_value('precoVenda'); ?>" />
                         </div>
-                    </div>
+                    </div>-->
+
                     <div class="control-group">
                         <label for="unidade" class="control-label">Unidade<span class="required">*</span></label>
                         <div class="controls">
