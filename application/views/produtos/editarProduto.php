@@ -185,12 +185,12 @@
                 unidade: {
                     required: true
                 },
-                precoCompra: {
+                /*precoCompra: {
                     required: true
                 },
                 precoVenda: {
                     required: true
-                },
+                },*/
                 estoque: {
                     required: true
                 }
@@ -202,12 +202,12 @@
                 unidade: {
                     required: 'Campo Requerido.'
                 },
-                precoCompra: {
+                /*precoCompra: {
                     required: 'Campo Requerido.'
                 },
                 precoVenda: {
                     required: 'Campo Requerido.'
-                },
+                },*/
                 estoque: {
                     required: 'Campo Requerido.'
                 }
