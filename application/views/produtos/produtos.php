@@ -61,8 +61,11 @@
                     echo '<a style="margin-right: 1%" href="#modal-excluir" role="button" data-toggle="modal" produto="' . $r->idProdutos . '" class="btn-nwe4" title="Excluir Produto"><i class="bx bx-trash-alt bx-xs"></i></a>';
                 }
                 if ($this->permission->checkPermission($this->session->userdata('permissao'), 'eProduto')) {
-                    echo '<a href="#atualizar-estoque" role="button" data-toggle="modal" produto="' . $r->idProdutos . '" estoque="' . $r->estoque . '" class="btn-nwe5" title="Atualizar Estoque"><i class="bx bx-plus-circle bx-xs"></i></a>';
+                    echo '<a href="#atualizar-estoque" role="button" data-toggle="modal" produto="' . $r->idProdutos . '" estoque="' . $r->estoque . '" class="btn-nwe5" title="Entrada de Produto"><i class="bx bx-plus-circle bx-xs"></i></a>';
                 }
+                if ($this->permission->checkPermission($this->session->userdata('permissao'), 'eProduto')) {
+                    echo '<a href="#atualizar-estoque" role="button" data-toggle="modal" produto="' . $r->idProdutos . '" estoque="' . $r->estoque . '" class="btn-nwe5" title="Saída de Produto"><i class="bx bx-minus-circle bx-xs"></i></a>';
+                }                
                 echo '</td>';
                 echo '</tr>';
             } ?>
