@@ -8,7 +8,7 @@
             <span class="icon">
                 <i class="fas fa-shopping-bag"></i>
             </span>
-            <h5>Podutos</h5>
+            <h5>Produtos</h5>
     </div>
 <div class="flexxn" style="display: flex;">
 <?php if ($this->permission->checkPermission($this->session->userdata('permissao'), 'aProduto')) { ?>
