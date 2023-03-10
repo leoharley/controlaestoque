@@ -32,7 +32,7 @@
                 <th>Nome</th>
                 <th>Estoque</th>
                 <!--<th>Preço</th>-->
-                <th>Ações</th>
+                <th>ções</th>
             </tr>
             </thead>
             <tbody>
